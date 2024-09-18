@@ -139,6 +139,7 @@
         background-color: rgba(56, 56, 59, 0.822);
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
         margin: 5rem;
         height: 15rem;
@@ -193,13 +194,12 @@
         justify-content: center;
         flex-direction: column;
         margin: 5rem;
-        margin-left: 15%;
         height: 15rem;
         width: 20rem;
-        padding: 1%;
         border-radius: 4rem;
-        color: white;
         font-size: 2rem;
         text-align: center;
+        font-style: oblique;
+
     }
 }
