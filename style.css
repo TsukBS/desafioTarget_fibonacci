@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(img/147214306-golden-ratio-fibonacci-number-with-the-mathematical-formula-golden-section-divine-proportion-and.jpg);
+    background-position: center;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+    border-radius: 2rem;
+    padding: 1%;
+}
+
+
+header > h1{
+    text-align: center;
+    color: white;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    background-color: rgba(56, 56, 59, 0.822);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+    height: 15rem;
+    width: 20rem;
+    border-radius: 4rem;
+
+}
+
+
+
+#input > p{
+    color: white;
+    font-size: 2rem;
+    font-style: oblique;
+    text-align: center;
+    margin: 2rem;
+    
+
+}
+
+#user-number{
+    display: flex;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    height: 1.8rem;
+    padding: 3%;
+}
+
+#check{
+    border-radius: 1rem;
+    padding: 3%;
+    border: 0;
+}
+
+#check:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#check:active{
+    background-color: black;
+    color: white;
+}
+
+
+.style-response{
+    color: white;
+    background-color: rgba(56, 56, 59, 0.822);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem;
+    margin-left: 15%;
+    height: 15rem;
+    width: 20rem;
+    padding: 1%;
+    border-radius: 4rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
